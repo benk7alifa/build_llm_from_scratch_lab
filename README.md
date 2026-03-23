@@ -37,7 +37,7 @@ The notebook is organized as a single story:
 
 Each major output is followed by a short interpretation block with:
 
-- What I am looking at
+- What this output shows
 - What changed here
 - Why it matters
 
