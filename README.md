@@ -74,7 +74,6 @@ The notebook is designed for CPU or a basic Colab session. The training runs are
 
 ```text
 build_llm_from_scratch_lab/
-├── .gitignore
 ├── README.md
 └── notebooks/
     └── build_llm_from_scratch_lab.ipynb
