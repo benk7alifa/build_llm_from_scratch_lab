@@ -37,8 +37,8 @@ The notebook is organized as a single story:
 
 Each major output is followed by a short interpretation block with:
 
-- What this output shows
-- What changed here
+- What to notice
+- How this moves the story forward
 - Why it matters
 
 ## Running The Lab
@@ -65,6 +65,7 @@ The notebook is designed for CPU or a basic Colab session. The training runs are
 
 - The notebook begins with a tiny regex-based word tokenizer for intuition.
 - The trainable scratch model switches to character-level tokenization to keep the vocabulary small and the training loops easy to inspect.
+- The early embedding examples use intentionally tiny vector widths so the mechanics stay readable on the page before the notebook connects them to real model scales such as GPT-2 Small.
 - The Stage A corpus uses repeated factual and grammar-like patterns so the model's improvements are easy to interpret.
 - The Stage B corpus uses a small cleaned slice of Project Gutenberg text to bridge the gap between toy data and real language.
 - GPT-2 Small appears at the end as a bridge from the educational build to a real pretrained transformer, not as a replacement for the scratch model.
