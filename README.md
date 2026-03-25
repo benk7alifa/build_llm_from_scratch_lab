@@ -38,7 +38,7 @@ The notebook is organized as a single story:
 Each major output is followed by a short interpretation block with:
 
 - What this shows
-- What this step contributes
+- How it advances the build
 - Why this matters
 
 ## Running The Lab
